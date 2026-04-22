@@ -14,7 +14,7 @@ const App = () => {
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState(null);
 
-  useEffect(() => {
+  useEffect(() => { if (!db || !auth) return;
     const unsubscribeAuth = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
       if (!currentUser) {
