@@ -19,9 +19,10 @@
     "lucide-react": "^0.344.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
     "react-i18next": "^14.0.5",
     "react-router-dom": "^6.30.3",
-    "swiper": "^11.0.5"
+    "swiper": "^11.2.10"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
